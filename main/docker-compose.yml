@@ -5,7 +5,7 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - 8000:8000
+      - 8001:5000
     volumes:
       - .:/app
     depends_on:
@@ -15,12 +15,12 @@ services:
     image: mysql:8.3.0
     restart: always
     environment:
-    - MYSQL_DATABASE=admin
+    - MYSQL_DATABASE=main
     - MYSQL_ROOT_PASSWORD=Grigala27  # Set the root user's password here
     volumes:
       - dbdata:/var/lib/mysql
     ports:
-      - 3307:3306
+      - 33067:3306
 
 volumes:
   dbdata:
