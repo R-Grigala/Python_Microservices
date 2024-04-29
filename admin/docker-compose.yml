@@ -11,7 +11,10 @@ services:
       - .:/app
     depends_on:
       - db
-      
+    networks:
+      - admin_network
+      - main_network
+
   queue:
     build:
       context: .
@@ -19,6 +22,8 @@ services:
     command: 'python consumer.py'
     depends_on:
       - db
+    networks:
+      - admin_network
 
   db:
     image: mysql:8.3.0
@@ -30,6 +35,16 @@ services:
       - dbdata:/var/lib/mysql
     ports:
       - 33066:3306
+    networks:
+      - admin_network
+
+networks:
+  admin_network:
+      name: admin_network
+      driver: bridge
+  main_network:
+    external:
+      name: main_network
 
 volumes:
   dbdata:
