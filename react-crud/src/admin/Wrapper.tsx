@@ -1,6 +1,6 @@
 import React, { PropsWithChildren } from 'react'
-import Nav from '../admin/components/Nav'
-import Menu from '../admin/components/Menu'
+import Nav from './components/Nav'
+import Menu from './components/Menu'
 
 const Wrapper = (props: PropsWithChildren<any>) => {
   return (
