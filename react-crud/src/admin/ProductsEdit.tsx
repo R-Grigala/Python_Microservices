@@ -1,8 +1,8 @@
-import React, { SyntheticEvent, useState } from 'react'
+import React, { SyntheticEvent, useState } from 'react';
 import Wrapper from './Wrapper';
 import { Navigate } from 'react-router-dom';
 
-const ProductsCreate = () => {
+const ProductsEdit = () => {
     const [title, setTitle] = useState('');
     const [image, setImage] = useState('');
     const [redirect, setRedirect] = useState(false);
@@ -42,9 +42,8 @@ const ProductsCreate = () => {
                 </div>
                 <button className='btn btn-outline-secondary'>Save</button>
             </form>
-
         </Wrapper>
     )
 }
 
-export default ProductsCreate;
+export default ProductsEdit;
