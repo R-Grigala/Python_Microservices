@@ -43,12 +43,12 @@ const ProductsEdit = () => {
             }
             setRedirect(true);
         } catch (error) {
-            setError("error");
+            setError("Error: Channel is closed.");
         }
     };
 
     if (redirect) {
-        return <Navigate to={'/admin/products'} />;
+        return <Navigate to={'/admin/products/'} />;
     }
 
     return (
