@@ -38,7 +38,7 @@ def index():
 @app.route('/api/products/<int:id>/like', methods=['POST'])
 def like(id):
     try:
-        req = requests.get('http://192.168.48.3:8000/api/user', timeout=10)  # Increase timeout to 10 seconds
+        req = requests.get('http://192.168.48.2:8000/api/user', timeout=10)  # Increase timeout to 10 seconds
         json= req.json()
         try:
             productUser = ProductUser(user_id=json['id'], product_id=id)

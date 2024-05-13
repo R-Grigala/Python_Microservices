@@ -11,7 +11,7 @@ const Menu = () => {
         <div className="offcanvas-body d-md-flex flex-column p-0 pt-lg-3 overflow-y-auto">
             <ul className="nav flex-column">
             <li className="nav-item">
-                <a className="nav-link d-flex align-items-center gap-2 active" aria-current="page" href="#">
+                <a className="nav-link d-flex align-items-center gap-2 active" aria-current="page" href="/">
                 <svg className="bi"><use href="#house-fill"></use></svg>
                 Dashboard
                 </a>

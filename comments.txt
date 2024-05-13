@@ -1,0 +1,6 @@
+#1 Docekr Compose build 
+docker-compose up --build
+#2 Docker Conteiners 
+docker ps -a
+#3 Docker Networks
+docker network ls
