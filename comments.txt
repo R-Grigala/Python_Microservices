@@ -4,3 +4,7 @@ docker-compose up --build
 docker ps -a
 #3 Docker Networks
 docker network ls
+
+
+# for react
+npm start
