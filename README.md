@@ -5,6 +5,7 @@ This repository demonstrates a Microservices Architecture project featuring Flas
 
 .
 ├── admin/               # Django-based services (Admin portal)
+
 │   ├── docker-compose.yml # Docker Compose for Django services
 │   ├── Dockerfile       # Docker configuration for Django app
 │   └── ...
