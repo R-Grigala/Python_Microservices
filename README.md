@@ -3,8 +3,7 @@ This repository demonstrates a Microservices Architecture project featuring Flas
 The backend services are containerized using Docker, while the React app is run locally using npm start.
 
 📂 Project Structure
-plaintext
-Copy code
+
 .
 ├── admin/               # Django-based services (Admin portal)
 │   ├── docker-compose.yml # Docker Compose for Django services
