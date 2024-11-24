@@ -1,10 +1,37 @@
-#1 Docekr Compose build 
+🔧 Setup Instructions
+Prerequisites
+Docker installed on your system.
+Node.js installed for React development (required for the frontend).
+Steps to Run Backend Services
+Django (admin branch)
+Navigate to the admin folder:
+
+cd admin
+Start the Django services:
+
 docker-compose up --build
-#2 Docker Conteiners 
-docker ps -a
-#3 Docker Networks
-docker network ls
+Access the Django Admin Portal at:
+http://localhost:8000/admin
 
+Flask (main branch)
+Navigate to the main folder:
 
-# for react
+cd main
+Start the Flask services:
+
+docker-compose up --build
+Access the Flask backend at:
+http://localhost:5000
+
+Steps to Run the React Frontend
+Navigate to the react-crud folder:
+
+cd react-crud
+Install dependencies:
+
+npm install
+Start the React app:
+
 npm start
+Access the React frontend at:
+http://localhost:3000
