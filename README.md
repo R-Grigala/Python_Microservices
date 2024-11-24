@@ -2,26 +2,39 @@
 This repository demonstrates a Microservices Architecture project featuring Flask, Django, MySQL, RabbitMQ, and React. The backend services are containerized using Docker, while the React app is run locally using npm start.
 
 📂 Project Structure
-
 .
+
 ├── admin/               # Django-based services (Admin portal)
 
 │   ├── docker-compose.yml # Docker Compose for Django services
-│   ├── Dockerfile       # Docker configuration for Django app
-│   └── ...
-├── main/                # Flask-based services
-│   ├── docker-compose.yml # Docker Compose for Flask services
-│   ├── Dockerfile       # Docker configuration for Flask app
-│   └── ...
-├── react-crud/          # Frontend application for managing products
-│   ├── package.json     # NPM configuration for React app
-│   ├── public/          # Static assets for React app
-│   ├── src/             # React source code
-│   └── ...
-├── .gitignore           # Git ignore file for sensitive or unnecessary files
-├── README.md            # Project documentation
-└── comments.txt         # Development notes or comments
 
+│   ├── Dockerfile       # Docker configuration for Django app
+
+│   └── ...
+
+├── main/                # Flask-based services
+
+│   ├── docker-compose.yml # Docker Compose for Flask services
+
+│   ├── Dockerfile       # Docker configuration for Flask app
+
+│   └── ...
+
+├── react-crud/          # Frontend application for managing products
+
+│   ├── package.json     # NPM configuration for React app
+
+│   ├── public/          # Static assets for React app
+
+│   ├── src/             # React source code
+
+│   └── ...
+
+├── .gitignore           # Git ignore file for sensitive or unnecessary files
+
+├── README.md            # Project documentation
+
+└── comments.txt         # Development notes or comments
 
 📦 Key Branches
 admin
