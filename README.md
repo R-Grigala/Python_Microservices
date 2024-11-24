@@ -5,21 +5,21 @@ This repository demonstrates a Microservices Architecture project featuring Flas
 .
 
 ├── admin/               # Django-based services (Admin portal)
-
+|
 │   ├── docker-compose.yml # Docker Compose for Django services
-
+|
 │   ├── Dockerfile       # Docker configuration for Django app
-
+|
 │   └── ...
-
+|
 ├── main/                # Flask-based services
-
+|
 │   ├── docker-compose.yml # Docker Compose for Flask services
-
+|
 │   ├── Dockerfile       # Docker configuration for Flask app
-
+|
 │   └── ...
-
+|
 ├── react-crud/          # Frontend application for managing products
 
 │   ├── package.json     # NPM configuration for React app
