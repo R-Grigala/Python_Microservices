@@ -2,6 +2,7 @@
 This repository demonstrates a Microservices Architecture project featuring Flask, Django, MySQL, RabbitMQ, and React. The backend services are containerized using Docker, while the React app is run locally using npm start.
 
 📂 Project Structure
+
 .
 ├── admin/               # Django-based services (Admin portal)
 │   ├── docker-compose.yml # Docker Compose for Django services
@@ -19,6 +20,7 @@ This repository demonstrates a Microservices Architecture project featuring Flas
 ├── .gitignore           # Git ignore file for sensitive or unnecessary files
 ├── README.md            # Project documentation
 └── comments.txt         # Development notes or comments
+
 
 📦 Key Branches
 admin
